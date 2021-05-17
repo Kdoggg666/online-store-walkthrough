@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'allauth.account',  # allauth apps
     'allauth.socialaccount',  # allauth apps
     'home',  # custom home app
+    'products',  # custom products app
 ]
 
 
