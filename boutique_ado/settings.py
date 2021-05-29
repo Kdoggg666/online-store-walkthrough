@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'home',  # custom home app
     'products',  # custom products app
     'bag',  # custom shopping cart app
+    'checkout',  # Custom checkout app
 
 ]
 
