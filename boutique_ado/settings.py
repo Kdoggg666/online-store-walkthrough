@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'bag',  # custom shopping cart app
     'checkout',  # Custom checkout app
     'crispy_forms',  # Crispy forms lets you format forms using bootstrap automatically
+    'profiles',  # Custom user profile app
 
 ]
 
