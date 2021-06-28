@@ -3,9 +3,12 @@ from .models import UserProfile
 from .forms import UserProfileForm
 from django.contrib import messages
 from checkout.models import Order
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
+
+@login_required
 def profile(request):
     """
     Display the users profie
@@ -47,4 +50,3 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
-    
