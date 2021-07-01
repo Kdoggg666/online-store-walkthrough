@@ -1,1 +1,1 @@
-web: gunicorn online_store_walkthrough.wsgi:application
+web: gunicorn boutique_ado.wsgi:application
